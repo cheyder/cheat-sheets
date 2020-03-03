@@ -1,29 +1,27 @@
 # GitHub
 
-Check Git version 
-`$ git --version`
+`$ git --version` check git version
 
-Set your name `$ git config --global user.name "Your Name"`
+`$ git config --global user.name "Your Name"` set your name 
 
-Set your email `$ git config --global youremail@example.com`
+`$ git config --global youremail@example.com` set your email 
 
-Set your Github account `$ git config --global user.username uSeRnAmE` (case sensitive)
+`$ git config --global user.username uSeRnAmE` set your Github account (case sensitive)
 
-Turn Git on for a folder `$ git init`
+`$ git init` 
+turn Git on for a folder 
 
-`$ git diff` View changes to files
+`$ git diff` view changes to files
 
-`$ git add <FILENAME>` Stage a file
+`$ git add <FILENAME>` stage a file
 
-`$ git add .` Stage all files
+`$ git add .` stage all files
 
-`$ git diff --staged` View changes to staged files
+`$ git diff --staged` view changes to staged files
 
 `$ git status`
 
-`$ git commit -m "your commit message"` Commit all staged files
-
-`git commit -a` Stage and commit all files (only if they've been added once already)
+`$ git commit -m "your commit message"` commit all staged files
 
 `git clone <URL>`
 
