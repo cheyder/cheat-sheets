@@ -23,9 +23,11 @@ turn Git on for a folder
 
 `$ git commit -m "your commit message"` commit all staged files
 
-`git clone <URL>`
+`$ git commit -a` stage and commit all files (if they've been staged once)
 
-`git log`
+`$ git clone <URL>`
+
+`$ git log`
 
 
 
