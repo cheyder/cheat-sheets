@@ -1,0 +1,50 @@
+<!DOCTYPE html> <!--HTML 5-->
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <!-- keywords not interesting anymore, have a look at open graph -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>website</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script defer src="main.js"></script>
+    <!-- früher wurde das javascript idR am Ende des Bodys eingefügt, damit es nicht gelesen wird bevor das HTML geladen wurde, heute "defer" -->
+</head>
+<body>
+    <header>
+        <h1><img src="logo.png" alt="neue fische"></h1>
+        <!-- nav>a[href="/Link $"]{Link $}*3 -->
+        
+        <nav>
+            <a href="/Link 1">Link 1</a>
+            <a href="/Link 2">Link 2</a>
+            <a href="/Link 3">Link 3</a>
+        </nav>
+        <!-- button{login} -->
+        <button>login</button>
+    </header>
+    <!-- main+aside+footer -->
+    <main>
+        <!-- lorem5 ENTER -->
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <!-- img[src="phone.png" alt="My Phone 3"] -->
+        <img src="phone.png" alt="My Phone 3">
+        <!-- ul>li*3>lorem3 -->
+        <ul>
+            <li>Lorem, ipsum dolor.</li>
+            <li>Tenetur, alias officia!</li>
+            <li>Nemo, iure itaque.</li>
+        </ul>
+        <a href="/buy">Buy</a>
+    </main>
+    <aside>
+        <form action="/search">
+            <label for="search-input">Search</label>
+            <!-- a label for every input -->
+            <input type="search" name="query" placeholder="What are you looking for?" id="search-input">
+            <!-- "name" names the inputted data, id links the input with the labe, -->
+            <button>Search</button>
+        </form>
+    </aside>
+    <footer>&COPY; 2020 neue fische</footer>
+</body>
+</html>
