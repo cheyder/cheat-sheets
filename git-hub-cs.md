@@ -79,6 +79,8 @@ To push a local repository for first time and remember REMOTENAME and BRANCHNAME
     $ git push -u <REMOTENAME> <BRANCHNAME>
 
     $ git pull <REMOTENAME> <BRANCHNAME>
+    
+    $ git clone <REPOSITORY/GITURL>
 
 
 ## Resources
