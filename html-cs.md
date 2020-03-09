@@ -25,7 +25,8 @@ Inhaltliche Gruppierungen mit den Untergruppen:
     - id-Attribut nur für header-Sprungmarken oder laber-input-Verknüpfung
 - `footer`
 - `main` auf jeder Seite individueller Inhalt
-- `nav` nur Links zur Seitennavigation, ersetzt alte Praxis der Navigation mit `ul`
+- `nav` nur Links zur Seitennavigation, ersetzt alte Praxis der Navigation mit `ul`:
+  - [kleiner Diskussionsüberblick](https://css-tricks.com/navigation-in-lists-to-be-or-not-to-be/)
 - `aside`
 - `article` vollständigen redaktionellen Inhalt
 - `section`allgemeine Strukturierung
