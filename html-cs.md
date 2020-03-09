@@ -27,6 +27,7 @@ Inhaltliche Gruppierungen mit den Untergruppen:
 - `main` auf jeder Seite individueller Inhalt
 - `nav` nur Links zur Seitennavigation, ersetzt alte Praxis der Navigation mit `ul`:
   - [kleiner Diskussionsüberblick](https://css-tricks.com/navigation-in-lists-to-be-or-not-to-be/)
+  - bei [MDN](https://css-tricks.com/navigation-in-lists-to-be-or-not-to-be/    ) jedoch immernoch mit `ul`
 - `aside`
 - `article` vollständigen redaktionellen Inhalt
 - `section`allgemeine Strukturierung
@@ -60,11 +61,8 @@ Immer so wenig semantisch hervorheben wie möglich.
         - `placeholder` können Label nicht ersetzen, niemals User-relevante Infos in einen Placeholder
 
 
-`<button></button>`
-`<a></a>`
-
-- Buttons für Aktionen auf der aktuellen Seite
-- Links für Verweise auf andere (Unter-)Seiten
+## [Links and Buttons](https://css-tricks.com/a-complete-guide-to-links-and-buttons/)
+and when to use which
 
 
 ## Tipps, Tricks, Hacks
