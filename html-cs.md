@@ -75,6 +75,7 @@ and when to use which
         <a></a>
     </h1>
 
+some [amazing HTML things](https://dev.to/theindiancodinggrl/20-days-of-html-learn-20-amazing-things-about-html-part-1-2p99)
 
 ### UX
 - ein schnellerer Spinner verkürzt die empfundene Wartezeit 
@@ -88,3 +89,5 @@ and when to use which
 [HTML Entities](https://www.amp-what.com)
 
 [Emmet Abbreviations](https://docs.emmet.io/)
+
+[]
