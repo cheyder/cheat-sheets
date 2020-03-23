@@ -91,7 +91,8 @@ verschiedene Eigenschaften des Endgeräts abfragen
 ## inline, inline-block, block
 
 - inline-Elemente: padding und margin wirkt sich nur nach links und rechts aus
-- inline-block-Elemente: pading und margin wirkt sich in alle Richtungen aus, nach Elementen wird aber nicht umgebrochen
+- inline-block-Elemente: pading und margin wirkt sich in alle Richtungen aus, nach Elementen wird aber nicht umgebrochen, wie bei
+- block-Elementen
 
 ## Box Model
 
@@ -108,13 +109,31 @@ Normalerweise würde padding und border auf eine explizite width oder height add
 ```
 
 ## Flexbox
-- `display: flex`
-- `justify-content: center, flex-start, flex-end, space-around, space-between, space-evenly`
-- `flex-direction: column` erreicht die Umkehrung der Ausrichtung
+- container:
+  - `display: flex`
+  - `justify-content: center, flex-start, flex-end, space-around, space-between, space-evenly`
+  - `flex-direction: column` erreicht die Umkehrung der Ausrichtung/ Achsen
+- items:
+  - `order`, `align-self`, `flex-grow`, `flex-shrink`, `flex-basis`
 
+## [Positioning](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
+
+- `position:`
+  - `static` - default
+  - `fixed` - fixe Anordnung im sichtbaren Viewport
+  - `sticky` - behält ein Element im Viewport beim scrollen, entsprechend der weiteren Positionsangaben
+  - `absolute` - 
+    - relativ zum body, nimmt es aus dem normalen document flow raus
+    - damit sie relativ zum  Elternelement bleiben, Elternelement `position: relative`geben
+- top/bottom/left/right
+
+z-index ist eigentlich immer null
 
 ## Resourcess
 
+ - um generell Kompatibilität von Funktionen mit Browserversionen zu überprüfen: 
+    - [caniuse.com](https://caniuse.com/)
+    - [Browserstack](https://www.browserstack.com/ "Browserstack")
  - [CSS Complete-Guide](https://css-tricks.com/snippets/css/complete-guide-grid/)
  - [CSS Grid Übungsspiel](https://cssgridgarden.com/#de)
  - [CSS Grid with WesBos](https://cssgrid.io/)
