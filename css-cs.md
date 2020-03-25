@@ -65,7 +65,7 @@ click for examples
 
 ---
 
-## CSS-Grid
+## [CSS-Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - seit 2017 unterstützt von allen wichtigen Browser
 - zweidimensional (`columns` und `rows`) im Ggs zu `flex` (eindimensional, entlang einer Achse)
 - die kürzesten Grid-Befehle:
@@ -76,6 +76,8 @@ click for examples
   - auto-fill: fülle den vorhandenen Platz mit so vielen columns/rows wie geht, leere bleiben leer
   - zum [Unterschied von auto-fit und auto-fill](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/)
 - Standardmäßig bei Grid alles untereinander, änderbar mit `grid-auto-flow: row`
+
+
 
 ## Media-Queries
 verschiedene Eigenschaften des Endgeräts abfragen
@@ -108,7 +110,7 @@ Normalerweise würde padding und border auf eine explizite width oder height add
 }
 ```
 
-## Flexbox
+## [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - container:
   - `display: flex`
   - `justify-content: center, flex-start, flex-end, space-around, space-between, space-evenly`
@@ -134,12 +136,10 @@ z-index ist eigentlich immer null
  - um generell Kompatibilität von Funktionen mit Browserversionen zu überprüfen: 
     - [caniuse.com](https://caniuse.com/)
     - [Browserstack](https://www.browserstack.com/ "Browserstack")
- - [CSS Complete-Guide](https://css-tricks.com/snippets/css/complete-guide-grid/)
  - [CSS Grid Übungsspiel](https://cssgridgarden.com/#de)
  - [CSS Grid with WesBos](https://cssgrid.io/)
  - [CSS on Scrimba](https://scrimba.com/g/gR8PTE)
  - [Flex Eigenschaften Übersichten](https://codepen.io/enxaneta/full/adLPwv)
- - [Flexbox Complete Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
  - [Flexbox Übungsspiel Flexfrog](https://flexboxfroggy.com/#de)
  - [Flexbox Übungsspiel Flexzombies](https://flexboxzombies.com/p/flexbox-zombies)
  - [noch ein CSS Spiel?](https://flukeout.github.io/)

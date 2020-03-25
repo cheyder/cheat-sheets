@@ -181,3 +181,58 @@ Konvertieren alle Operanden in Boolesche Werte und prüft sie nacheinander von l
   - gibt ansonsten den ersten Operand mit `false` zurück
 - NOT : `!`
   - gibt den umgekehrten Booleschen Wert zurück (Negation)
+
+
+---
+
+## Arrays []
+
+[spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) (beachte [rest parameter](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Functions/rest_parameter))
+
+Methoden
+
+- `forEach` iteriert über ein Array und manipuliert seine Elemente
+- `map` iteriert über ein Array, verändert nicht dasselbe, sondern gibt ein gleiches zurück
+- `filter`
+- `slice` 
+- `some` gibt Booleschen Wert zurück, ob ein Objekt enthalten ist, dass die Bedingung erfüllt. Stoppt bei erstem `true`
+- `every` gibt Booleschen Wert zurück, ob alle Objekte die Bedingung erfüllen. Stoppt bei erstem `false`
+- `length` gibt Länge des Arrays zurück
+- `sort` ändert auch das originale Array, deshalb meist mit `slice` vorneweg 
+
+---
+
+## Objects {}
+Wie nennen wir die einzelne Teile eines Objekts?
+```
+const object = {
+  key = value, //in total called property
+}
+```
+Kombinationen von Objekten und Arrays
+
+```
+const cards = [
+{
+  question: "What is the answer?",
+  answer: "Whatever you want!",
+  isBookmarked: false
+},
+{
+  question: "What is the answer?",
+  answer: "Whatever you want!",
+  isBookmarked: false
+  tags: ['html', 'css']
+  createdBy: {
+    name: 'Chris',
+    role: 'student',
+  }
+}
+]
+```
+dot syntax
+```
+console.log(cards[0].question) // "What is the answer?"
+console.log(cards[1].createdBy.name) // 'Chris'
+console.log(cards[1].tags[1]) // 'css'
+```
