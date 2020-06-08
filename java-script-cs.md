@@ -199,7 +199,15 @@ Methoden
 - `every` gibt Booleschen Wert zurück, ob alle Objekte die Bedingung erfüllen. Stoppt bei erstem `false`
 - `length` gibt Länge des Arrays zurück
 - `sort` ändert auch das originale Array, deshalb meist mit `slice` vorneweg 
+- `reduce` itteriert durch ein Array und akkumuliert Werte
 
+---
+
+## String
+
+### Methoden
+
+- split
 ---
 
 ## Objects {}
@@ -236,3 +244,4 @@ console.log(cards[0].question) // "What is the answer?"
 console.log(cards[1].createdBy.name) // 'Chris'
 console.log(cards[1].tags[1]) // 'css'
 ```
+
