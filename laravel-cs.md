@@ -1,16 +1,22 @@
 # Laravel
 [Dokumentation](https://laravel.com/docs/7.x) lesen, macht gute Laravel-Entwickelnde!
 
-## setting up the server
-Local development environment for Laravel:
+## setting up the local development environment
+### server:
 - ([install](https://linuxize.com/post/how-to-install-virtualbox-on-ubuntu-18-04/#installing-virtualbox-from-ubuntu-repositories)) [VirtualBox](https://www.virtualbox.org/wiki/VirtualBox) as virtual machine
 - ([install](https://linuxize.com/post/how-to-install-vagrant-on-ubuntu-18-04/#2-installing-vagrant)) [Vagrant](https://www.vagrantup.com/docs) as configuration of the virtual machine
 - ([install](https://laravel.com/docs/7.x/homestead#first-steps)) [Homestead](https://laravel.com/docs/7.x/homestead) as pre-packaged Vagrant box providing everything Laravel needs
 - [configure Homestead](https://laravel.com/docs/7.x/homestead#configuring-homestead):
-  - folder mapping
-  - domain mapping
-  - hostname resolution
+  - folder mapping (`/Homestead/Homestead.yaml`)
+  - domain mapping (`/Homestead/Homestead.yaml`)
+  - hostname resolution (`/etc/hosts`)
+
+### framework:
 - ([install](https://laravel.com/docs/7.x#installing-laravel)) Laravel
+- ([instal](https://laravel.com/docs/7.x/frontend#introduction)) Vue or Bootstrap
+
+### debugging:
+- [config](https://christattum.com/debugging-on-laravel-homestead-using-vscode/) XDebug
 
 ## file structure
 
