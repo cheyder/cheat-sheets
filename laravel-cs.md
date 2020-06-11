@@ -32,7 +32,7 @@ vendor/         # composer dependencies
 ```
 
 ## Code-Snippets zu
-- [Routen](/resources/laravel-routes.php)
+- [Routen](./resources/laravel-routes.php)
 
 ## Template Engine ([Blade](https://laravel.com/docs/7.x/blade))
 
@@ -84,7 +84,7 @@ php artisan make:migration create_products_table --create=products
 php artisan make:migration add_color_to_products_table --table=products
 ```
 
-Beispiel für [Migration-Datei](../backend/resources/laravel-migration.php)
+Beispiel für [Migration-Datei](./resources/laravel-migration.php)
 ```
 php artisan migrate
 
@@ -110,7 +110,7 @@ php artisan make:model Product --controller
 php artisan make:model Product -mc
 ```
 
-Sammlung von [Methoden](../backend/resources/laravel-modelmethods.php)
+Sammlung von [Methoden](./resources/laravel-modelmethods.php)
 
 ## [Seeder](https://laravel.com/docs/7.x/seeding)
 
@@ -488,7 +488,7 @@ public function testCreateUser()
 - die enthaltenen einzelnen Test-Funktionsnamen beginne mit `test` und werden im snailCase gefolgt von einer sehr detaillierten Beschreibung der Test-Funktion
 
 
-### Testabdeckun
+### Testabdeckung
 - wieviel von unserem Code wurde von Tests durchlaufen?
 
 Einrichtung:
