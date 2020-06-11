@@ -1,7 +1,7 @@
 # Laravel
 [Dokumentation](https://laravel.com/docs/7.x) lesen, macht gute Laravel-Entwickelnde!
 
-## setting up the server 
+## setting up the server
 Local development environment for Laravel:
 - ([install](https://linuxize.com/post/how-to-install-virtualbox-on-ubuntu-18-04/#installing-virtualbox-from-ubuntu-repositories)) [VirtualBox](https://www.virtualbox.org/wiki/VirtualBox) as virtual machine
 - ([install](https://linuxize.com/post/how-to-install-vagrant-on-ubuntu-18-04/#2-installing-vagrant)) [Vagrant](https://www.vagrantup.com/docs) as configuration of the virtual machine
@@ -32,7 +32,7 @@ vendor/         # composer dependencies
 ```
 
 ## Code-Snippets zu
-- [Routen](../backend/resources/laravel-routes.php)
+- [Routen](/resources/laravel-routes.php)
 
 ## Template Engine ([Blade](https://laravel.com/docs/7.x/blade))
 
