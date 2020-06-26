@@ -155,8 +155,8 @@ CRUD
 ```
 //create a resource controller with artisan
 
-php artisan make:controller ProductionController --resource
-php artisan make:controller ProductionController --resource --model=Product
+php artisan make:controller ProductController --resource
+php artisan make:controller ProductController --resource --model=Product
 ```
 
 ```php
