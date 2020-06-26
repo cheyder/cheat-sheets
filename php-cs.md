@@ -120,7 +120,7 @@ modulo-Operator
 
 - legt fest, dass Kinder dieser Klasse eine solche Funktion brauchen, legt sie aber noch nicht fest. Muss in Kinderklasse überschrieben werden.
 
-### [Interface](../backend/resources/interfaces.php)
+### [Interface](./resources/interfaces.php)
 - haben im Gegensatz zu abstrakten Klassen keinen konkreten Code
 
 #### Trait
@@ -138,13 +138,19 @@ modulo-Operator
                 use TraitName;
         }
 
-### [Statische Methoden und Attribute](../backend/resources/static.php)
-- erlaubt Zugriff auf die Funktionen einer Klasse ohne ein Objekt instanziieren zu müssen
-- für alle Objekte einer Klasse gleich
-- gut geeignet um Helfermethoden und -attribute zu kapseln
+### Statische Methoden und Eigenschaften
+- idR erkennbar an `::`
+- statische Methoden einer Klasse können aufgerufen werden ohne ein Objekt instanziieren zu müssen
+- statische Eigenschaften gelten für alle Objekte einer Klasse
+- gut geeignet um Helfermethoden und -eigenschaften zu kapseln
+- in Laravel werden häufig scheinbar statische Methoden verwendet, die allerdings im Hintergrund ein objekt instanziieren
+- es ist idR nicht empfohlen statische Methoden und Eigenschaften, vorbehalten Sonderfälle
+
+[Beispiele](./resources/static.php) |
+[Artikel](https://wpshout.com/courses/object-oriented-php-for-wordpress-developers/php-static-methods-in-depth/)
 
 ## Name spaces
-- immer erste Definition in einer Datei
+- immer die erste Definition in einer Datei
 - häufig Firmennamen oder Entwicklernamen
 - meistens ein Name Space pro Datei
 - namespace endet am Dateiende
